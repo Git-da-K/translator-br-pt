@@ -6,7 +6,7 @@ eng_words = ['Hi','Bye','Task', 'Programm']
 fr_words = ['Salut','Au revoir','Tâche', 'Programme']
 score = 0
 
-mode = input("Pick a mod: 0 - add new words, 1 - training: \n")
+mode = input("Pick a mode: 0 - add new words, 1 - training: \n")
 while ((mode != '0') and (mode != '1')):
     mode = input("Invalid dymbol! Выбери 0 или 1. (0 - добавить новые слова, 1 - тренироваться) \n")
 
