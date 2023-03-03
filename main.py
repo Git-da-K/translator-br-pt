@@ -8,7 +8,7 @@ score = 0
 
 mode = input("Pick a mode: 0 - add new words, 1 - training: \n")
 while ((mode != '0') and (mode != '1')):
-    mode = input("Invalid dymbol! Выбери 0 или 1. (0 - добавить новые слова, 1 - тренироваться) \n")
+    mode = input("Invalid dymbol! Pick either 0 or 1. (0 adds new words, while 1 enables training) \n")
 
 if mode == "1":
     print("Translate as many words as you can! You have 10 attempts!")
