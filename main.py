@@ -13,7 +13,7 @@ while ((mode != '0') and (mode != '1')):
 if mode == "1":
     print("Translate as many words as you can! You have 10 attempts!")
     for i in range(10):
-        number = random.randint(0, len(eng_words))
+        number = random.randint(0, len(eng_words)-1)
         print("How should we translate: " + eng_words[number])
         if input() == fr_words[number]:
             print("Great!!!")
