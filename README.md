@@ -1,4 +1,4 @@
-# translator-br-pt
+# translator-pt
 
 My translator!
 
